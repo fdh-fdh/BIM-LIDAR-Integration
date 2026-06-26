@@ -3,7 +3,8 @@
 # BIM-LIDAR Integration
 
 ## Description
-2024.03-2024.10 HIWI@Chair of [CCBE](https://www.cee.ed.tum.de/ccbe/home/)
+2024.03-2024.10 HIWI@Chair of [CCBE](https://www.cee.ed.tum.de/ccbe/home/),TUM
+
 This Python project involves the identification of negative differences between LIDAR point cloud data and Building Information Models (BIM), along with feature extraction from the point cloud using various perception steps. The goal is to facilitate updates to the current BIM model by detecting conflicts and inconsistencies.
 
 ## Installation
