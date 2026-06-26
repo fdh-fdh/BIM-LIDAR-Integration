@@ -1,0 +1,90 @@
+# OS and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+.venv/
+venv/
+env/
+ENV/
+pip-wheel-metadata/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# C/C++ and CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+build-*/
+out/
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Logs and temporary files
+*.log
+logs/
+tmp/
+temp/
+cache/
+.cache/
+
+# BIM / LiDAR / geospatial data outputs
+data/raw/
+data/processed/
+outputs/
+results/
+exports/
+models/
+checkpoints/
+*.las
+*.laz
+*.e57
+*.pcd
+*.ply
+*.pts
+*.xyz
+*.ifc
+*.rvt
+*.dwg
+*.dxf
+*.obj
+*.fbx
+*.glb
+*.gltf
+*.tif
+*.tiff
+
+# Keep placeholder files so empty directories can be tracked
+!**/.gitkeep
